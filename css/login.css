@@ -1,0 +1,44 @@
+body {
+  background-image: url(../img/fondopatagonia.png);
+  background-size: cover;
+  height: 100vh;
+}
+header {
+  display: flex;
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  box-shadow: 3px 2px 12px 1px black;
+}
+header .titulo {
+  margin-left: 626px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 79vh;
+}
+.formulario {
+  background-color: rgb(85, 99, 85, 0.2);
+  box-shadow: 3px 2px 12px 1px black;
+  padding: 2rem;
+  font-weight: 600;
+  text-shadow: white 3px 0 10px;
+  color: black;
+}
+main input {
+  border: 1px black solid !important;
+}
+header .btn-close {
+  font-size: 10px;
+  color: white;
+}
+div img {
+  height: 100%;
+  object-fit: cover;
+}
+header div {
+  height: 3rem;
+  align-content: center;
+}
