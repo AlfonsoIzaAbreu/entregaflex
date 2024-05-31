@@ -220,7 +220,6 @@ footer {
   justify-content: space-around;
   .variedades {
     width: 320px;
-    height: 475px;
     justify-content: center;
     h2 {
       letter-spacing: 0.8rem;
@@ -357,5 +356,101 @@ header .header {
   }
   input {
     border: 1px black solid !important;
+  }
+}
+@media screen and (max-width: 1197px) {
+  .mainlogin{
+    background-size: contain;
+  }
+ }
+ @media screen and (max-width: 926px) {
+   .loginheader{
+     margin: 0 2rem;
+   }
+ }
+//////////////////////////////* UBICACION *////////////////////////////////
+
+.mainubicacion {
+  height: 79vh;
+  .mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    iframe {
+      box-shadow: 3px 2px 30px 1px black;
+      width: 80%;
+      height: 500px;
+    }
+  }
+}
+
+//////////////////////////////* CONTACTO *////////////////////////////////
+
+.maincontacto {
+  height: 79vh;
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 0;
+    padding-top: 7rem;
+    li {
+      border: 1px solid;
+      width: 70%;
+      height: 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 3px 2px 14px 1px black;
+      padding: 0 3rem 0 3rem;
+      img {
+        width: 3%;
+      }
+      h2 {
+        font-size: 1.5rem;
+        margin: 0;
+        width: 40%;
+      }
+      a {
+        color: goldenrod;
+        text-decoration: none;
+        width: 80%;
+        text-align: center;
+      }
+      &:hover{
+        height: 3.5rem;
+        background-image: url(fondopatagonia.png);
+        background-size: cover;
+        font-size: 1.5rem;
+        transition-duration: 500ms;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1290px) {
+ .maincontacto ul li img{
+    width: 5%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .maincontacto ul li img{
+    width: 7%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .maincontacto ul li img{
+    width: 10%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .maincontacto ul li img{
+    width: 15%;
+  }
+  .maincontacto ul li{
+    padding: 0 1rem 0 1rem;
   }
 }
