@@ -311,16 +311,16 @@ footer {
 header .header {
   display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   font-size: 2.5rem;
   color: white;
   box-shadow: 3px 2px 12px 1px black;
-  justify-content: center;
   height: 4rem;
-  align-content: center;
 }
 header .header .titulo {
-  align-content: center;
   justify-content: center;
+  align-items: center;
 }
 header .header .logoback {
   position: absolute;
@@ -366,7 +366,7 @@ header .header .logoback img {
 .mainubicacion .mapa {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 .mainubicacion .mapa iframe {
   box-shadow: 3px 2px 30px 1px black;

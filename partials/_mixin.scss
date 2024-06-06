@@ -1,0 +1,4 @@
+@mixin posicion ($justify-content,$align-content){
+    justify-content: $justify-content;
+    align-content: $align-content;
+  }
