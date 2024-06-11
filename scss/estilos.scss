@@ -350,6 +350,16 @@ header .header {
   input {
     border: 1px black solid !important;
   }
+  .registrate{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 0 0 0;
+    gap: 0.5rem;
+    p{
+      font-size: 0.8rem;
+      
+    }
+  }
 }
 @media screen and (max-width: 1197px) {
   .mainlogin{
@@ -445,4 +455,13 @@ header .header {
   .maincontacto ul li{
     padding: 0 1rem 0 1rem;
   }
+}
+////////////////////////////////   PRODUCTOS   //////////////////////////////////
+.productosback{
+  position: absolute;
+    left: 0px;
+    width: 30px;
+    img {
+      max-width: 100%;
+    }
 }

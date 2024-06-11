@@ -349,6 +349,15 @@ header .header .logoback img {
 .mainlogin input {
   border: 1px black solid !important;
 }
+.mainlogin .registrate {
+  display: flex;
+  flex-direction: row;
+  margin: 1.5rem 0 0 0;
+  gap: 0.5rem;
+}
+.mainlogin .registrate p {
+  font-size: 0.8rem;
+}
 
 @media screen and (max-width: 1197px) {
   .mainlogin {
@@ -440,6 +449,14 @@ header .header .logoback img {
   .maincontacto ul li {
     padding: 0 1rem 0 1rem;
   }
+}
+.productosback {
+  position: absolute;
+  left: 0px;
+  width: 30px;
+}
+.productosback img {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=estilos.css.map */
